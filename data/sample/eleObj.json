@@ -1,0 +1,64 @@
+{
+  "protocol": "http",
+  "hostname": "0.0.0.0",
+  "path": "/",
+  "capabilities": {
+    "browserName": "chrome",
+    "goog:chromeOptions": {
+      "binary": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    }
+  },
+  "logLevel": "silent",
+  "connectionRetryTimeout": 120000,
+  "connectionRetryCount": 3,
+  "logLevels": {},
+  "enableDirectConnect": true,
+  "strictSSL": true,
+  "cacheDir": "C:\\Users\\amanp\\AppData\\Local\\Temp",
+  "port": 63062,
+  "requestedCapabilities": {
+    "browserName": "chrome",
+    "goog:chromeOptions": {
+      "binary": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    }
+  },
+  "automationProtocol": "webdriver",
+  "specs": [
+    "D:\\FrondEnd\\Testing\\Udemy\\WebDriverIO\\new\\webdriver-io-latests/test/features/**/*.feature"
+  ],
+  "exclude": [],
+  "suites": {},
+  "rootDir": "D:\\FrondEnd\\Testing\\Udemy\\WebDriverIO\\new\\webdriver-io-latests",
+  "baseUrl": "https://www.amazon.in/",
+  "bail": 0,
+  "waitforInterval": 500,
+  "waitforTimeout": 10000,
+  "framework": "cucumber",
+  "reporters": ["spec"],
+  "services": [],
+  "execArgv": [],
+  "maxInstances": 10,
+  "maxInstancesPerCapability": 100,
+  "injectGlobals": true,
+  "specFileRetries": 0,
+  "specFileRetriesDelay": 0,
+  "specFileRetriesDeferred": false,
+  "filesToWatch": [],
+  "onPrepare": [],
+  "onWorkerStart": [],
+  "onWorkerEnd": [],
+  "before": [],
+  "beforeSession": [],
+  "beforeSuite": [],
+  "beforeHook": [],
+  "beforeTest": [],
+  "beforeCommand": [],
+  "afterCommand": [],
+  "afterTest": [],
+  "afterHook": [],
+  "afterSuite": [],
+  "afterSession": [],
+  "after": [],
+  "onComplete": [],
+  "onReload": []
+}

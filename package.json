@@ -12,6 +12,8 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "demo": "npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@demo'",
+    "smoke": "npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@smoke'"
   }
 }
